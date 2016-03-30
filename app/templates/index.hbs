@@ -4,6 +4,9 @@ The only decade of action that matters.
 
 <ul>
   {{#each model as |blogpost|}}
-     <li>{{blogpost.title}} | {{blogpost.author}} | {{blogpost.image}} | {{blogpost.content}}</li>
+     {{blogpost-tile blogpost=blogpost destroyBlogpost="destroyBlogpost"}}
   {{/each}}
 </ul>
+
+{{#link-to 'about'}}About{{/link-to}}
+{{#link-to 'contact'}}Click here to contact us.{{/link-to}}
