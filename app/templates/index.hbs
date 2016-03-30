@@ -4,9 +4,11 @@ The only decade of action that matters.
 
 <ul>
   {{#each model as |blogpost|}}
-     {{blogpost-tile blogpost=blogpost destroyBlogpost="destroyBlogpost"}}
+     {{blogpost-tile blogpost=blogpost update="update" destroyBlogpost="destroyBlogpost"}}
   {{/each}}
 </ul>
+
+{{new-blogpost save2="save3"}}
 
 {{#link-to 'about'}}About{{/link-to}}
 {{#link-to 'contact'}}Click here to contact us.{{/link-to}}
