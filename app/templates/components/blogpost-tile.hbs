@@ -1,5 +1,3 @@
-<li>{{blogpost.title}} <br>By: {{blogpost.author}} <br> <img src={{blogpost.image}} alt={{blogpost.title}}> <br> {{blogpost.content}}
-  {{update-blogpost blogpost=blogpost update="update"}}
-<button {{action 'delete' blogpost}}>Delete</button>
+<li>{{#link-to 'blogpost' blogpost.id}}{{blogpost.title}} <br>By {{blogpost.author}} <br> <img src={{blogpost.image}} alt={{blogpost.title}}> <br>{{/link-to}}
 <hr>
 </li>
