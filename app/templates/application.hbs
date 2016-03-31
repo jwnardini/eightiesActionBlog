@@ -1,3 +1,19 @@
-<h2 id="title">Welcome to Ember</h2>
+{{#link-to 'index'}}<header class = "jumbotron">
+  <img src="https://cdn-media.threadless.com/challenges/the80s_mainbanner.jpg">
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+  <h1 class="headerFont">ACTION MOVIE BLOG</h1>
+</header>{{/link-to}}
 
-{{outlet}}
+<div class="container">
+  {{outlet}}
+</div>
+
+<hr>
+
+<footer>
+  <hr>
+  {{#link-to 'contact'}}Our representatives would love to help!{{/link-to}} |
+  {{#link-to 'about'}}About{{/link-to}} |
+  {{#link-to 'index'}}Homepage{{/link-to}}
+  <hr>
+</footer>

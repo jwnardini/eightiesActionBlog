@@ -1,0 +1,17 @@
+h1.headerFont {
+  font-family: 'Roboto Slab', serif;
+}
+
+header.jumbotron {
+  background-color: cyan;
+}
+
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+footer {
+  background-color: cyan;
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+}
