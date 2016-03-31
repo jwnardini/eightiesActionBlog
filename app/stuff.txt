@@ -1,0 +1,5 @@
+<ul>
+  {{#each model as |blogpost|}}
+     {{blogpost-tile blogpost=blogpost update="update" destroyBlogpost="destroyBlogpost"}}
+  {{/each}}
+</ul>
