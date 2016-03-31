@@ -19,21 +19,6 @@ export default Ember.Route.extend({
       var newAuthor = this.store.createRecord('author', paramsAuthor);
       newAuthor.save();
       this.transitionTo('index');
-    },
-
-    update(author, paramsAuthor) {
-      Object.keys(paramsAuthor).forEach(function(key) {
-        if(paramsAuthor[key]!==undefined) {
-          author.set(key,paramsAuthor[key]);
-        }
-      });
-      author.save();
-      this.transitionTo('index');
-    },
-
-    destroyAuthor(author) {
-      author.destroyRecord();
-      this.transitionTo('index');
     }
   }
 });
