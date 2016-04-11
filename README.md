@@ -1,4 +1,4 @@
-# Eighties-action-blog
+# Eighties Action Movie Blog!
 
 Welcome to the 80s Action Movie Blog!  A blog site dedicated to everyone's favorite 80s action movies. With this site, you can add a new blog post, or edit an existing blog post! Make sure to only post about 80s action films, or else you will be betraying the spirit of the blog!
 
